@@ -1,0 +1,39 @@
+{
+    "numeric": [
+        "lane_count",
+        "speed_limit_kmph",
+        "blackspot_score",
+        "latitude",
+        "longitude",
+        "day_of_week",
+        "hour_of_day",
+        "vehicle_count_per_hr",
+        "avg_speed_kmph",
+        "green_duration_s",
+        "red_duration_s",
+        "yellow_duration_s",
+        "cycle_time_s",
+        "violations_count",
+        "vehicles_involved",
+        "veh_count_at_accident"
+    ],
+    "categorical": [
+        "location_id",
+        "timestamp",
+        "state",
+        "road_type",
+        "has_signal",
+        "enforcement_level",
+        "season",
+        "lighting",
+        "weather",
+        "is_peak",
+        "peak",
+        "traffic_data_quality_flag",
+        "signal_status",
+        "signal_data_quality_flag",
+        "severity",
+        "cause"
+    ],
+    "target": "accident_occurred"
+}
