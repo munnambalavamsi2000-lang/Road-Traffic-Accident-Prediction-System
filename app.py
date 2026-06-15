@@ -96,7 +96,7 @@ if uploaded_file:
         # ==========================
         # DASHBOARD
         # ==========================
-        st.subheader("📊 Prediction Summary")
+        #st.subheader("📊 Prediction Summary")
         counts = df["predicted_accident"].value_counts()
         percentages = df["predicted_accident"].value_counts(normalize=True) * 100
         summary_df = pd.DataFrame({"Count": counts, "Percentage": percentages})
